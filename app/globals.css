@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.animate-gradient-shift {
+  animation: gradientShift 15s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 6s ease-in-out infinite;
+}
+
+.delay-1000 {
+  animation-delay: 1s;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.05; }
+  50% { opacity: 0.15; }
+}
