@@ -188,7 +188,7 @@ export default function AdvancedPhotoGallery() {
           <div className="flex items-center space-x-2 sm:space-x-4">
             <Aperture className="w-8 h-8 sm:w-12 sm:h-12 text-yellow-400" />
             <h1 className="text-xl sm:text-3xl font-light tracking-wide">
-              Ashu's Stories
+            Ashu&apos;s Stories
             </h1>
           </div>
 
